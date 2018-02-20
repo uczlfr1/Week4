@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "cutdownmaterialdesign"
+    }
+  }
+}
