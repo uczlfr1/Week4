@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "leaflet"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "leaflet"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "leaflet"
+    }
+  }
+}
