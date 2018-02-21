@@ -127,10 +127,10 @@
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>Inbox</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Trash</a>
+          <a class="mdl-navigation__link" href="" onclick='drawOnly();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">delete</i>Point and circle</a>
           <a class="mdl-navigation__link" href="" onclick='getLocation();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Show Position</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Forums</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Updates</a>
+          <a class="mdl-navigation__link" href="" onclick='getDistance();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Get distance</a>
+          <a class="mdl-navigation__link" href="" onclick='trackLocation();return false;'><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Track Location</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_offer</i>Promos</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Purchases</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">people</i>Social</a>
@@ -142,7 +142,9 @@
         <div class="mdl-grid demo-content">
           <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
 		  <b>This code will display your current location</b>
-          <div id='showLocation'>Location will be displayed here</div>    
+          <div id='showLocation'>Location will be displayed here</div>   
+          <b>This code will display your current location</b>
+          <div id='showDistance'>Distance will be displayed here</div>		  
           <!-- the mapid div will hold the map -->
           <div id="mapid" style="width: 1000px; height: 500px;"></div>		  
           </div>
